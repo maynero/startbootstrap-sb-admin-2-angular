@@ -28,15 +28,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/solid.min.css"
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "node_modules/chart.js/dist/Chart.min.css",
+              "node_modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css",
+              "src/styles.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/js/sb-admin-2.min.js"
+              "node_modules/chart.js/dist/Chart.min.js",
+              "node_modules/datatables.net/js/jquery.dataTables.min.js",
+              "node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js",
+              "src/js/sb-admin-2.min.js",
+              "src/js/demo/datatables-demo.js",
+              "src/js/demo/chart-area-demo.js",
+              "src/js/demo/chart-bar-demo.js",
+              "src/js/demo/chart-pie-demo.js"
             ]
           },
           "configurations": {
