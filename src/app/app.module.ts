@@ -3,10 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { SidebarBrandComponent } from './components/sidebar-brand/sidebar-brand.component';
+import { SidebarItemComponent } from './components/sidebar-item/sidebar-item.component';
+import { TopbarComponent } from './components/topbar/topbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { TopbarSearchComponent } from './components/topbar-search/topbar-search.component';
+import { TopbarNavbarComponent } from './components/topbar-navbar/topbar-navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent,
+    SidebarBrandComponent,
+    SidebarItemComponent,
+    TopbarComponent,
+    FooterComponent,
+    TopbarSearchComponent,
+    TopbarNavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -15,4 +29,9 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+  constructor() {
+    
+  }
+}
