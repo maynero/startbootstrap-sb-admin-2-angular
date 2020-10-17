@@ -1,5 +1,6 @@
-# SbAdmin2Angular
+# Sb Admin 2 - Angular
 
+Base on the popular bootstrap admin template Startbootstrap SB Admin 2: https://startbootstrap.github.io/startbootstrap-sb-admin-2/
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
 
 ## Development server
